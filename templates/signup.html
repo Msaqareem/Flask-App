@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <!--css files-->
+     <link rel="stylesheet" href="../static/files/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../static/files/css/lightslider.css">
+     <link rel="stylesheet" href="../static/files/css/style.css">
+     <!--js files-->
+     <script src="../static/files/js/bootstrap.min.js"></script>
+     <script src="../static/files/js/jquery.js"></script>
+     <script src="../static/files/js/lightslider.js"></script>
+     <script src="../static/files/js/script.js"></script>
+     
+     
+</head>
+<body>
+    <center>
+        <div class="container-fluid">
+            <section class="row mt-4">
+                <div class="col-md-6 mx-auto">
+                    <div class="card shadow p-4">
+                        <h3>Create Account</h3>
+
+                        <h4 class="text-danger">{{error}}</h4>
+                        <h4 class="text-success">{{success}}</h4>
+        
+                        <form action="/signup" method="post">
+                            <input type="text" name="username" class="form-control" placeholder="Your Name"> <br>
+        
+                            <input type="email" name="email" class="form-control" placeholder="Email"> <br>
+        
+                            <input type="password" name="password 1" class="form-control" placeholder="Enter password"> <br>
+                            <input type="password" name="password 2" class="form-control" placeholder="confirm password"> <br>
+    
+                            <input type="title" name="title" class="form-control" placeholder="enter title"><br>
+        
+        
+                            <input type="submit" value="Sign Up" class="btn btn-success">
+                            
+        
+        
+        
+                        </form>
+                        <br><br>
+                        <a href="/signin">Already Have Account ? Sign In</a>
+        
+                    </div>
+                
+        
+        
+                </div>
+        
+            </section>
+        
+          </div> 
+           
+        </body>
+        </html>
+    </center>
+  
